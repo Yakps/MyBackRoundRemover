@@ -1,6 +1,6 @@
 from rembg import remove
-input_path = "image.jpg"            #fotoğradın adını yazıyoruz
-output_path = "output.png"          #outputunu yazıyoruz
+input_path = "image.jpg"            #added picture name
+output_path = "output.png"          #added outpt.png
 
 with open(input_path,'rb') as i:
     with open(output_path,'wb') as o:
